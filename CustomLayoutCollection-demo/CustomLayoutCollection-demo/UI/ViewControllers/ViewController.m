@@ -32,8 +32,7 @@ static NSString * const FooterIdentifier = @"FooterIdentifier";
 }
 
 #pragma mark - Setup
-- (void)setup
-{
+- (void)setup{
     self.collectionViewLayout = [[CustomLayCollectionOut alloc] init];
     self.collectionViewLayout.delegate = self;
 
@@ -50,13 +49,11 @@ static NSString * const FooterIdentifier = @"FooterIdentifier";
 }
 
 #pragma mark - UICollectionViewDataSource
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
-{
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
     return 3;
 }
 
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
-{
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     switch (section) {
         case 0:{
             return 16;
@@ -81,8 +78,7 @@ static NSString * const FooterIdentifier = @"FooterIdentifier";
     NSLog(@"indexPath%@",indexPath);
 }
 
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
-{
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     RAMCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
     
     [cell configureCellWithIndexPath:indexPath];
@@ -91,8 +87,7 @@ static NSString * const FooterIdentifier = @"FooterIdentifier";
 }
 
 
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath;
-{
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
     UICollectionReusableView *titleView;
     
     if (kind == RAMCollectionViewFlemishBondHeaderKind) {
@@ -173,28 +168,13 @@ static NSString * const FooterIdentifier = @"FooterIdentifier";
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView
-                  layout:(CustomLayCollectionOut *)collectionViewLayout estimatedSizeForHeaderInSection:(NSInteger)section
-{
+                  layout:(CustomLayCollectionOut *)collectionViewLayout estimatedSizeForHeaderInSection:(NSInteger)section{
     return CGSizeMake(CGRectGetWidth(self.collectionView.frame), 100);
 }
 
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(CustomLayCollectionOut *)collectionViewLayout estimatedSizeForFooterInSection:(NSInteger)section
-{
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(CustomLayCollectionOut *)collectionViewLayout estimatedSizeForFooterInSection:(NSInteger)section{
     return CGSizeMake(CGRectGetWidth(self.collectionView.frame), 100);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @end
