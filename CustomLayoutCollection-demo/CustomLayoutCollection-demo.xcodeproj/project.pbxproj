@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		666209391BECA243009316AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 666209381BECA243009316AA /* main.m */; };
 		6662093C1BECA243009316AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6662093B1BECA243009316AA /* AppDelegate.m */; };
-		6662093F1BECA243009316AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6662093E1BECA243009316AA /* ViewController.m */; };
 		666209421BECA243009316AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666209401BECA243009316AA /* Main.storyboard */; };
 		666209441BECA243009316AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666209431BECA243009316AA /* Assets.xcassets */; };
 		666209471BECA243009316AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666209451BECA243009316AA /* LaunchScreen.storyboard */; };
-		666209511BECA3A2009316AA /* CustomLayCollectionOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 666209501BECA3A2009316AA /* CustomLayCollectionOut.m */; };
-		666209541BECA3D5009316AA /* CustomLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 666209531BECA3D5009316AA /* CustomLayoutAttributes.m */; };
-		666209581BECA50D009316AA /* UIColor+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 666209571BECA50D009316AA /* UIColor+additions.m */; };
-		6662095D1BECA573009316AA /* RAMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6662095A1BECA573009316AA /* RAMCollectionViewCell.m */; };
-		6662095E1BECA573009316AA /* RAMCollectionAuxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6662095C1BECA573009316AA /* RAMCollectionAuxView.m */; };
+		88941E341CB7A58300C33467 /* UIColor+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88941E251CB7A58300C33467 /* UIColor+additions.m */; };
+		88941E351CB7A58300C33467 /* CustomLayCollectionOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 88941E291CB7A58300C33467 /* CustomLayCollectionOut.m */; };
+		88941E361CB7A58300C33467 /* CustomLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 88941E2B1CB7A58300C33467 /* CustomLayoutAttributes.m */; };
+		88941E371CB7A58300C33467 /* RAMCollectionAuxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88941E2E1CB7A58300C33467 /* RAMCollectionAuxView.m */; };
+		88941E381CB7A58300C33467 /* RAMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88941E301CB7A58300C33467 /* RAMCollectionViewCell.m */; };
+		88941E391CB7A58300C33467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88941E331CB7A58300C33467 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,22 +25,22 @@
 		666209381BECA243009316AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6662093A1BECA243009316AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6662093B1BECA243009316AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6662093D1BECA243009316AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6662093E1BECA243009316AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		666209411BECA243009316AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		666209431BECA243009316AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		666209461BECA243009316AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		666209481BECA243009316AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6662094F1BECA3A2009316AA /* CustomLayCollectionOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayCollectionOut.h; sourceTree = "<group>"; };
-		666209501BECA3A2009316AA /* CustomLayCollectionOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayCollectionOut.m; sourceTree = "<group>"; };
-		666209521BECA3D5009316AA /* CustomLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutAttributes.h; sourceTree = "<group>"; };
-		666209531BECA3D5009316AA /* CustomLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutAttributes.m; sourceTree = "<group>"; };
-		666209561BECA50D009316AA /* UIColor+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+additions.h"; sourceTree = "<group>"; };
-		666209571BECA50D009316AA /* UIColor+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+additions.m"; sourceTree = "<group>"; };
-		666209591BECA573009316AA /* RAMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMCollectionViewCell.h; sourceTree = "<group>"; };
-		6662095A1BECA573009316AA /* RAMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMCollectionViewCell.m; sourceTree = "<group>"; };
-		6662095B1BECA573009316AA /* RAMCollectionAuxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMCollectionAuxView.h; sourceTree = "<group>"; };
-		6662095C1BECA573009316AA /* RAMCollectionAuxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMCollectionAuxView.m; sourceTree = "<group>"; };
+		88941E241CB7A58300C33467 /* UIColor+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+additions.h"; sourceTree = "<group>"; };
+		88941E251CB7A58300C33467 /* UIColor+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+additions.m"; sourceTree = "<group>"; };
+		88941E281CB7A58300C33467 /* CustomLayCollectionOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayCollectionOut.h; sourceTree = "<group>"; };
+		88941E291CB7A58300C33467 /* CustomLayCollectionOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayCollectionOut.m; sourceTree = "<group>"; };
+		88941E2A1CB7A58300C33467 /* CustomLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutAttributes.h; sourceTree = "<group>"; };
+		88941E2B1CB7A58300C33467 /* CustomLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutAttributes.m; sourceTree = "<group>"; };
+		88941E2D1CB7A58300C33467 /* RAMCollectionAuxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMCollectionAuxView.h; sourceTree = "<group>"; };
+		88941E2E1CB7A58300C33467 /* RAMCollectionAuxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMCollectionAuxView.m; sourceTree = "<group>"; };
+		88941E2F1CB7A58300C33467 /* RAMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMCollectionViewCell.h; sourceTree = "<group>"; };
+		88941E301CB7A58300C33467 /* RAMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMCollectionViewCell.m; sourceTree = "<group>"; };
+		88941E321CB7A58300C33467 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88941E331CB7A58300C33467 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,16 +73,10 @@
 		666209361BECA243009316AA /* CustomLayoutCollection-demo */ = {
 			isa = PBXGroup;
 			children = (
-				666209551BECA50D009316AA /* Categories */,
-				6662094E1BECA358009316AA /* CustomCollectionViewLayout */,
+				88941E221CB7A58300C33467 /* Common */,
+				88941E261CB7A58300C33467 /* UI */,
 				6662093A1BECA243009316AA /* AppDelegate.h */,
 				6662093B1BECA243009316AA /* AppDelegate.m */,
-				6662093D1BECA243009316AA /* ViewController.h */,
-				6662093E1BECA243009316AA /* ViewController.m */,
-				666209591BECA573009316AA /* RAMCollectionViewCell.h */,
-				6662095A1BECA573009316AA /* RAMCollectionViewCell.m */,
-				6662095B1BECA573009316AA /* RAMCollectionAuxView.h */,
-				6662095C1BECA573009316AA /* RAMCollectionAuxView.m */,
 				666209401BECA243009316AA /* Main.storyboard */,
 				666209431BECA243009316AA /* Assets.xcassets */,
 				666209451BECA243009316AA /* LaunchScreen.storyboard */,
@@ -100,24 +94,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6662094E1BECA358009316AA /* CustomCollectionViewLayout */ = {
+		88941E221CB7A58300C33467 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				666209521BECA3D5009316AA /* CustomLayoutAttributes.h */,
-				666209531BECA3D5009316AA /* CustomLayoutAttributes.m */,
-				6662094F1BECA3A2009316AA /* CustomLayCollectionOut.h */,
-				666209501BECA3A2009316AA /* CustomLayCollectionOut.m */,
+				88941E231CB7A58300C33467 /* Categories */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		88941E231CB7A58300C33467 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				88941E241CB7A58300C33467 /* UIColor+additions.h */,
+				88941E251CB7A58300C33467 /* UIColor+additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		88941E261CB7A58300C33467 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				88941E271CB7A58300C33467 /* CustomCollectionViewLayout */,
+				88941E2C1CB7A58300C33467 /* View */,
+				88941E311CB7A58300C33467 /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		88941E271CB7A58300C33467 /* CustomCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				88941E281CB7A58300C33467 /* CustomLayCollectionOut.h */,
+				88941E291CB7A58300C33467 /* CustomLayCollectionOut.m */,
+				88941E2A1CB7A58300C33467 /* CustomLayoutAttributes.h */,
+				88941E2B1CB7A58300C33467 /* CustomLayoutAttributes.m */,
 			);
 			path = CustomCollectionViewLayout;
 			sourceTree = "<group>";
 		};
-		666209551BECA50D009316AA /* Categories */ = {
+		88941E2C1CB7A58300C33467 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				666209561BECA50D009316AA /* UIColor+additions.h */,
-				666209571BECA50D009316AA /* UIColor+additions.m */,
+				88941E2D1CB7A58300C33467 /* RAMCollectionAuxView.h */,
+				88941E2E1CB7A58300C33467 /* RAMCollectionAuxView.m */,
+				88941E2F1CB7A58300C33467 /* RAMCollectionViewCell.h */,
+				88941E301CB7A58300C33467 /* RAMCollectionViewCell.m */,
 			);
-			path = Categories;
+			path = View;
+			sourceTree = "<group>";
+		};
+		88941E311CB7A58300C33467 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88941E321CB7A58300C33467 /* ViewController.h */,
+				88941E331CB7A58300C33467 /* ViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,14 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666209511BECA3A2009316AA /* CustomLayCollectionOut.m in Sources */,
-				6662095D1BECA573009316AA /* RAMCollectionViewCell.m in Sources */,
-				6662093F1BECA243009316AA /* ViewController.m in Sources */,
-				666209541BECA3D5009316AA /* CustomLayoutAttributes.m in Sources */,
+				88941E351CB7A58300C33467 /* CustomLayCollectionOut.m in Sources */,
+				88941E381CB7A58300C33467 /* RAMCollectionViewCell.m in Sources */,
+				88941E391CB7A58300C33467 /* ViewController.m in Sources */,
 				6662093C1BECA243009316AA /* AppDelegate.m in Sources */,
+				88941E361CB7A58300C33467 /* CustomLayoutAttributes.m in Sources */,
 				666209391BECA243009316AA /* main.m in Sources */,
-				6662095E1BECA573009316AA /* RAMCollectionAuxView.m in Sources */,
-				666209581BECA50D009316AA /* UIColor+additions.m in Sources */,
+				88941E371CB7A58300C33467 /* RAMCollectionAuxView.m in Sources */,
+				88941E341CB7A58300C33467 /* UIColor+additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
