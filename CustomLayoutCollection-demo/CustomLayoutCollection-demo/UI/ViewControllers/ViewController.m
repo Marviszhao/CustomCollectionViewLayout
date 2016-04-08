@@ -185,16 +185,4 @@ static NSString * const FooterIdentifier = @"FooterIdentifier";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @end

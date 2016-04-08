@@ -23,7 +23,6 @@
         self.label.textAlignment = NSTextAlignmentCenter;
         self.label.font = [UIFont boldSystemFontOfSize:13.0f];
         self.label.textColor = [UIColor blackColor];
-        
         [self addSubview:self.label];
     }
     
